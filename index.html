@@ -26,6 +26,7 @@
 
 		        local player = Players:GetPlayerFromCharacter(hit.Parent)
 		        player.leaderstats.EasterEggs.Value = player.leaderstats.EasterEggs.Value + 1
+	    		script.Parent:Destroy()
 		        script.Disabled = true
 		        script:Destroy()
 
